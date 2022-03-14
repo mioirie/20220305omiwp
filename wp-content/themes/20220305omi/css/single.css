@@ -1,0 +1,330 @@
+@charset "utf-8";
+/*
+Theme Name: 20220305omi
+Theme URL: テーマのサイトのURL
+Description: テーマの説明
+Author: テーマの作者
+Version: テーマのバージョン
+Tags: テーマの特徴を表すタグ（カンマ区切り/オプション）
+License: テーマのライセンス
+License URI: テーマのライセンスのURL
+*/
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/* ***************************ここから下に記載************************* */
+body {
+  width: 100vw;
+  height: 100vh;;
+  background-color : #f5f5f5;
+}
+.header {
+  background-color: #ffffff;
+}
+.estramedia {
+  text-align: center;
+  padding-top: 5vh;
+}
+.header_nav {
+  display: flex;
+}
+@media screen and (max-width: 768px){
+.header_nav {
+  display: none;
+}
+}
+.header_nav_list {
+  display: flex;
+  margin: 20px auto;
+}
+.header_nav_item {
+  margin-right: 35px;
+}
+.header_nav_item_link {
+    color: #808080;
+    text-decoration: none;
+}
+.content {
+  width: 45vw;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 5vh;
+  padding-bottom: 3vh;
+}
+@media screen and (max-width: 768px){
+.content{
+  width: 85vw;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 5vh;
+  padding-bottom: 3vh;
+}
+}
+.category {
+  width: 90px;
+  margin-top: 6vh;
+  padding-top: 3vh;
+}
+.category-ttl {
+  background: #c71585;
+  margin-left: 2vw;
+  padding: 5px ;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+.article-title {
+  width: 40vw;
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: bold;
+  color: #808080;
+  padding: 20px;
+}
+@media screen and (max-width: 768px){
+.article-title {
+  width: 80vw;
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: bold;
+  color: #808080;
+  padding: 20px;
+}
+}
+.article-date {
+  width: 40vw;
+  font-size: 10px;
+  color: #808080;
+  padding-left: 30px;
+}
+.magazine-image {
+  width: 45vw;
+  border-radius: 10px;
+  margin-top: 5vh;
+}
+@media screen and (max-width: 768px){
+.magazine-image {
+  width: 85vw;
+  border-radius: 10px;
+  margin-top: 5vh;
+}
+}
+.article-text {
+  width: 42vw;
+  margin: 0 auto;
+  margin-top: 5vh;
+}
+@media screen and (max-width: 768px){
+.article-text {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 5vh;
+}
+}
+.sampletext {
+  font-size: 11px;
+  line-height: 14px;
+  color: #808080;
+}
+.dummytext {
+  margin: 14px 0;
+}
+.sample-header_lg {
+  font-size: large;
+  font-weight: bold;
+  color: #808080;
+}
+.sample-header_md {
+  position: relative;
+  font-size: medium;
+  font-weight: bold;
+  color: #808080; 
+}
+.sample-header_sm {
+  font-size: small;
+  font-weight: bolder;
+  color: #808080; 
+}
+.footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: #ffffff;
+}
+.footer-content {
+  padding-top: 5vh;
+  text-align: center;
+}

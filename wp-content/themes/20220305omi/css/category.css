@@ -1,0 +1,462 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/* ***************************ここから下に記載************************* */
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color : #f5f5f5;
+}
+.header {
+  background-color: #ffffff;
+}
+.estramedia {
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+}
+.header_nav {
+  display: flex;
+}
+@media screen and (max-width: 768px){
+.header_nav {
+  display: none;
+}
+}
+.header_nav_list {
+  display: flex;
+  margin: 20px auto;
+}
+.header_nav_item {
+  margin-right: 35px;
+}
+.header_nav_item_link {
+    color: #808080;
+    text-decoration: none;
+}
+.top {
+  position: relative;
+  width: 100vw;
+  height: 30vh;
+  background-color: #c71585;
+}
+.topcopy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.article {
+  margin-top: 15vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  position: relative;
+}
+.flex {
+  position: absolute;
+  width: 57vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px){
+.flex {
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+}
+.magazine-column {
+  position: relative;
+  width: 17vw;
+  margin-top: 20px;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+.magazine-image {
+  width: 17vw;
+  border-radius: 20px;
+}
+@media screen and (max-width: 768px){
+.magazine-image {
+  width: 55vw;
+  border-radius: 15px;
+}
+}
+.text-content {
+  min-height: 130px;
+  position: relative;
+  bottom: 30px;
+  background:#fff;
+  padding: 18px;
+  max-height: 120px;
+  border-radius: 0 0 15px 15px;
+}
+@media screen and (max-width: 768px){
+.text-content {
+  width: 55vw;
+  min-height: 130px;
+  position: relative;
+  bottom: 30px;
+  background:#fff;
+  padding: 18px;
+  max-height: 120px;
+  border-radius: 0 0 15px 15px;
+}
+}
+.article__title {
+  color: #808080;
+  font-size: 16px;
+  line-height: 30px;
+  justify-content: center;
+}
+.article__date {
+  font-size: 12px;
+  margin: 5px;
+  margin-top: 5vh; /************************************* 後で直したい */
+  color: #808080;
+}
+.article-border {
+  border:0.5px solid #808080;
+  margin-top: 10px;
+  width:65vw;
+}
+@media screen and (min-width: 769px){
+.article-border {
+  display: none;
+}
+}
+.promotion {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 768px){
+.promotion {
+  padding-top: 80vh;
+  justify-content: center;
+}
+}
+.promotion-image {
+  width: 25vw;
+  border-radius: 15px;
+}
+@media screen and (max-width: 768px){
+.promotion-image {
+  width: 80vw;
+  border-radius: 15px;
+}
+}
+.profile {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  width: 25vw;
+  border-radius: 15px;
+  background-color: #ffffff;
+  float: right;
+}
+@media screen and (max-width: 768px){
+.profile {
+  width: 80vw;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+}
+.profile-image {
+  width: 14vw;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+@media screen and (max-width: 768px){
+.profile-image {
+  width: 18vw;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+}
+.profile-content {
+  width: 25vw;
+  padding: 17px;
+  color:#808080
+}
+@media screen and (max-width: 768px){
+.profile-content {
+  width: 70vw;
+  padding: 17px;
+  margin: 0 auto;
+  color:#808080
+}
+}
+.profile-ttl {
+  font-size: 23px;
+  text-align: center;
+}
+.profile-txt {
+  font-size: 16px;
+  line-height: 30px;
+  justify-content: center;
+  margin-top: 15px;
+}
+.category {
+  display: flex;
+  margin-top: 4vh;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 25vw;
+  border-radius: 15px;
+  background-color: #ffffff;
+  float: right;
+  margin-left: 70vw;
+}
+@media screen and (max-width: 768px){
+.category {
+  margin-top: 4vh;
+  width: 80vw;
+  border-radius: 15px;
+  background-color: #ffffff;
+  float: right;
+}
+}
+.category-content {
+  width: 23vw;
+  margin: 30px 15px;
+}
+@media screen and (max-width: 768px){
+.category-content {
+  width: 70vw;
+  margin: 30px 15px;
+  margin: 0 auto;
+}
+}
+.category-ttl {
+  text-align: left;
+}
+.category-ttl_name {
+  font-size: 23px;
+  font-weight: bold;
+  color: #808080;
+    padding-bottom: 5vh;
+}
+@media screen and (max-width: 768px){
+.category-ttl_name {
+  font-size: 23px;
+  font-weight: bold;
+  color: #808080;
+  padding: 3vh 0;
+}
+}
+.category-list {
+  height: 8vh;
+  border-bottom:0.5px solid #f5f5f5;
+}
+.language {
+  vertical-align: middle;
+  color: #808080;
+}
+.cate-link {
+  text-decoration: none;
+}
+.allow {
+  vertical-align: middle;
+  text-align: right;
+}
+.footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: #ffffff;
+  margin-top: 130vh;
+}
+@media screen and (max-width: 768px){
+.footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: #ffffff;
+  margin-top: 110vh;
+}
+}
+.footer-content {
+  padding-top: 5vh;
+  text-align: center;
+}
