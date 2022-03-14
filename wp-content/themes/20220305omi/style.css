@@ -434,6 +434,7 @@ body {
   color: #808080;
   text-align: left;
 }
+
 .indexpromotion {
   display: flex;
   margin-top: 20px;
@@ -444,7 +445,7 @@ body {
   .indexpromotion {
     margin-top: 485vh;
     flex-wrap: wrap;
-    justify-content: fcenter;
+    justify-content: center;
   }
 }
 .promotion-image {

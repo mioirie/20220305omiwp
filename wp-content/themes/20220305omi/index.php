@@ -1,11 +1,12 @@
     <?php get_header(); ?>
-    <div class="indexeyecatch">
-      <img src="wp-content/themes/20220305omi/img/media__firstview.png" alt="">
-      <div class="wrap">
-        <p class="topcopy">Commit to the growth<br>for everyone</p>
-      </div>
-    </div>
+
     <div class="indexcontent">
+      <div class="indexeyecatch">
+        <img src="wp-content/themes/20220305omi/img/media__firstview.png" alt="">
+        <div class="wrap">
+          <p class="topcopy">Commit to the growth<br>for everyone</p>
+        </div>
+      </div>
       <div class="article">
         <div class="newpost">
           <p class="newpost_ttl-small">New Post</p>
@@ -52,60 +53,64 @@
             <p>投稿が見つかりません。</p>
           <?php endif; ?>
 
-        </div>
+        </div> <!-- indexflex closetag -->
 
-        <div class="indexpromotion">
-          <a href="single.html" class="promotion-column">
-            <img src="wp-content\themes\20220305omi\img\banner.png" alt="no-img" class="promotion-image">
-          </a>
-        </div>
-        <div class="profile">
-          <img src="wp-content\themes\20220305omi\img\logo_circle.JPG" alt="no-img" class="profile-image">
-          <div class="profile-content">
-            <h3 class="profile-ttl">エストラ編集部</h3>
-            <p class="profile-txt">プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。</p>
-          </div>
-        </div>
-        <div class="indexcategory">
-          <table class="category-content">
-            <tr class="category-ttl">
-              <th class="category-ttl_name">Category</th>
-            </tr>
 
-            <tr class="category-list">
-              <td class="language"><a href="category.html" class="cate-link">HTML</a></td>
-              <td class="allow">
-                <img src="wp-content/themes/20220305omi/img/arrow.svg" alt="no-img" class="allow-image">
-              </td>
-            </tr>
-            <tr class="category-list">
-              <td class="language"><a href="category.html" class="cate-link">CSS</a></td>
-              <td class="allow">
-                <img src="wp-content/themes/20220305omi/img/arrow.svg" alt="no-img" class="allow-image">
-              </td>
-            </tr>
-            <tr class="category-list">
-              <td class="language"><a href="category.html" class="cate-link">JavaScript</a></td>
-              <td class="allow">
-                <img src="wp-content/themes/20220305omi/img/arrow.svg" alt="no-img" class="allow-image">
-              </td>
-            </tr>
-            <tr class="category-list">
-              <td class="language"><a href="category.html" class="cate-link">PHP</a></td>
-              <td class="allow">
-                <img src="wp-content/themes/20220305omi/img/arrow.svg" alt="no-img" class="allow-image">
-              </td>
-            </tr>
-            <tr class="category-list">
-              <td class="language"><a href="category.html" class="cate-link">MySQL</a></td>
-              <td class="allow">
-                <img src="wp-content/themes/20220305omi/img/arrow.svg" alt="no-img" class="allow-image">
-              </td>
-            </tr>
-          </table>
-        </div>
-
+      </div> <!-- article 　closetag -->
+    </div>
+    
+    <div class="indexpromotion">
+      <a href="single.html" class="promotion-column">
+        <img src="wp-content\themes\20220305omi\img\banner.png" alt="no-img" class="promotion-image">
+      </a>
+    </div>
+    <div class="profile">
+      <img src="wp-content\themes\20220305omi\img\logo_circle.JPG" alt="no-img" class="profile-image">
+      <div class="profile-content">
+        <h3 class="profile-ttl">エストラ編集部</h3>
+        <p class="profile-txt">プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。</p>
       </div>
     </div>
+    <div class="indexcategory">
+      <table class="category-content">
+        <tr class="category-ttl">
+          <th class="category-ttl_name">Category</th>
+        </tr>
+
+        <tr class="category-list">
+          <td class="language"><a href="category.html" class="cate-link">HTML</a></td>
+          <td class="allow">
+            <img src="wp-content/themes/20220305omi/img/arrow.svg" alt="no-img" class="allow-image">
+          </td>
+        </tr>
+        <tr class="category-list">
+          <td class="language"><a href="category.html" class="cate-link">CSS</a></td>
+          <td class="allow">
+            <img src="wp-content/themes/20220305omi/img/arrow.svg" alt="no-img" class="allow-image">
+          </td>
+        </tr>
+        <tr class="category-list">
+          <td class="language"><a href="category.html" class="cate-link">JavaScript</a></td>
+          <td class="allow">
+            <img src="wp-content/themes/20220305omi/img/arrow.svg" alt="no-img" class="allow-image">
+          </td>
+        </tr>
+        <tr class="category-list">
+          <td class="language"><a href="category.html" class="cate-link">PHP</a></td>
+          <td class="allow">
+            <img src="wp-content/themes/20220305omi/img/arrow.svg" alt="no-img" class="allow-image">
+          </td>
+        </tr>
+        <tr class="category-list">
+          <td class="language"><a href="category.html" class="cate-link">MySQL</a></td>
+          <td class="allow">
+            <img src="wp-content/themes/20220305omi/img/arrow.svg" alt="no-img" class="allow-image">
+          </td>
+        </tr>
+      </table>
+    </div>
+
+
+
     </div>
     <?php get_footer(); ?>
