@@ -21,18 +21,19 @@
       <a href="<?php echo esc_url(home_url('/')); ?>" class="article-logo">
         <div class="estramedia">
           <?php bloginfo('name'); ?>
-          <a href="index.html" class="header-img">
-            <img src="wp-content\themes\20220305omi\img\estramedia__logo.png" alt="no-image">
+          <a href="<?php echo home_url('/'); ?>" class="header-img">
+            <!-- estramediaロゴからトップ画面にリンク -->
+            <img src="http://localhost/20220305omi2/wp-content/uploads/2022/03/estramedia__logo.png" alt="no-image">
           </a>
           <?php bloginfo('description'); ?>
         </div>
         <nav class="header_nav">
           <ul class="header_nav_list">
-            <li class="header_nav_item"><a href="category.html" class="header_nav_item_link">HTML</a></li>
-            <li class="header_nav_item"><a href="category.html" class="header_nav_item_link">CSS</a></li>
-            <li class="header_nav_item"><a href="category.html" class="header_nav_item_link">JavaScript</a></li>
-            <li class="header_nav_item"><a href="category.html" class="header_nav_item_link">PHP</a></li>
-            <li class="header_nav_item"><a href="category.html" class="header_nav_item_link">MySQL</a></li>
+            <li class="header_nav_item"><a href="http://localhost/20220305omi2/category/html/" class="header_nav_item_link">HTML</a></li>
+            <li class="header_nav_item"><a href="http://localhost/20220305omi2/category/css/" class="header_nav_item_link">CSS</a></li>
+            <li class="header_nav_item"><a href="http://localhost/20220305omi2/category/javascript/" class="header_nav_item_link">JavaScript</a></li>
+            <li class="header_nav_item"><a href="http://localhost/20220305omi2/category/php/" class="header_nav_item_link">PHP</a></li>
+            <li class="header_nav_item"><a href="http://localhost/20220305omi2/category/mysql/" class="header_nav_item_link">MySQL</a></li>
           </ul>
         </nav>
 

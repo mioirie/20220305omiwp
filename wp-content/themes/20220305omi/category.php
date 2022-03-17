@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="top">
-  <p class="topcopy"><?php single_cat_title(); ?></p>
+  <p class="categorytopcopy"><?php single_cat_title(); ?></p>
   <!-- カテゴリーのタイトルを出力 -->
 </div>
 
@@ -91,37 +91,37 @@
         </tr>
 
         <tr class="category-list">
-          <td class="language"><a href="category.html" class="cate-link">HTML</a></td>
+          <td class="language"><a href="http://localhost/20220305omi2/category/html" class="cate-link">HTML</a></td>
           <td class="allow">
-            <img src="img/arrow.svg" alt="no-img" class="allow-image">
+            <img src="http://localhost/20220305omi2/wp-content/uploads/2022/03/arrow.png" alt="no-img" class="allow-image">
           </td>
         </tr>
 
 
         <tr class="category-list">
-          <td class="language"><a href="category.html" class="cate-link">CSS</a></td>
+          <td class="language"><a href="http://localhost/20220305omi2/category/css/" class="cate-link">CSS</a></td>
           <td class="allow">
-            <img src="img/arrow.svg" alt="no-img" class="allow-image">
+            <img src="http://localhost/20220305omi2/wp-content/uploads/2022/03/arrow.png" alt="no-img" class="allow-image">
           </td>
         </tr>
 
         <tr class="category-list">
-          <td class="language"><a href="category.html" class="cate-link">JavaScript</a></td>
+          <td class="language"><a href="http://localhost/20220305omi2/category/javascript/" class="cate-link">JavaScript</a></td>
           <td class="allow">
-            <img src="img/arrow.svg" alt="no-img" class="allow-image">
+            <img src="http://localhost/20220305omi2/wp-content/uploads/2022/03/arrow.png" alt="no-img" class="allow-image">
           </td>
         </tr>
 
         <tr class="category-list">
-          <td class="language"><a href="category.html" class="cate-link">PHP</a></td>
+          <td class="language"><a href="http://localhost/20220305omi2/category/php/" class="cate-link">PHP</a></td>
           <td class="allow">
-            <img src="img/arrow.svg" alt="no-img" class="allow-image">
+            <img src="http://localhost/20220305omi2/wp-content/uploads/2022/03/arrow.png" alt="no-img" class="allow-image">
           </td>
         </tr>
         <tr class="category-list">
-          <td class="language"><a href="category.html" class="cate-link">MySQL</a></td>
+          <td class="language"><a href="http://localhost/20220305omi2/category/mysql/" class="cate-link">MySQL</a></td>
           <td class="allow">
-            <img src="img/arrow.svg" alt="no-img" class="allow-image">
+            <img src="http://localhost/20220305omi2/wp-content/uploads/2022/03/arrow.png" alt="no-img" class="allow-image">
           </td>
         </tr>
       </table>

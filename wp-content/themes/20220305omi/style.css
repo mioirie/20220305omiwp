@@ -93,6 +93,7 @@ video {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  margin-top: 15px;
 }
 
 body {
@@ -199,9 +200,9 @@ body {
   padding-top: 5vh;
 }
 .header-img {
-    background-image:url(wp-content\themes\20220305omi\img\estramedia__logo.png);
-    background-repeat:  no-repeat;
-    width:auto;
+  background-image: url(wp-content\themes\20220305omi\img\estramedia__logo.png);
+  background-repeat: no-repeat;
+  width: auto;
 }
 .header_nav {
   display: flex;
@@ -263,24 +264,24 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Indie Flower", cursive;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     color: white;
   }
 }
 
 .indexcontent {
-  width: 100vw;
+  width: 65vw;
 }
 
-.article {
+.indexarticle {
   margin-top: 15vh;
   margin-left: 5vw;
   margin-right: 5vw;
   position: relative;
 }
 @media screen and (max-width: 768px) {
-  .article {
+  .indexarticle {
     margin-top: 15vh;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -322,15 +323,14 @@ body {
   }
 }
 .indexflex {
-  position: absolute;
   width: 57vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 @media screen and (max-width: 768px) {
   .indexflex {
-    position: absolute;
     width: 85vw;
     justify-content: center;
   }
@@ -354,12 +354,12 @@ body {
     text-decoration: none;
   }
 }
-.magazine-image {
+.indexmagazine-image {
   width: 17vw;
   border-radius: 15px;
 }
 @media screen and (max-width: 768px) {
-  .magazine-image {
+  .indexmagazine-image {
     position: relative;
     width: 85vw;
     height: 50vh;
@@ -367,14 +367,14 @@ body {
     border-radius: 15px;
   }
 }
-.indexmagazine-image {
+.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
   width: 17vw;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
 }
 @media screen and (max-width: 768px) {
-  .indexmagazine-image {
+  .attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
     width: 55vw;
-    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
   }
 }
 .indexcategory-tag {
@@ -409,17 +409,17 @@ body {
   border-radius: 0 0 15px 15px;
 }
 @media screen and (max-width: 768px) {
-.indextext-content {
-  width: 71vw;
-  height: auto;
-  position: relative;
-  background: #fff;
-  padding: 15px;
-  border-radius: 0 0 15px 15px;
-  margin: 0 auto;
-  margin-bottom: 5vh;
-  margin-top: -2vh;
-}
+  .indextext-content {
+    width: 71vw;
+    height: auto;
+    position: relative;
+    background: #fff;
+    padding: 15px;
+    border-radius: 0 0 15px 15px;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+    margin-top: -2vh;
+  }
 }
 .indexarticle__title {
   color: #808080;
@@ -437,13 +437,13 @@ body {
 
 .indexpromotion {
   display: flex;
-  margin-top: 20px;
+  margin-top: -60vh;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
 @media screen and (max-width: 768px) {
   .indexpromotion {
-    margin-top: 485vh;
+    margin-top: 2vh;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -458,7 +458,7 @@ body {
     border-radius: 15px;
   }
 }
-.profile {
+.indexprofile {
   display: flex;
   margin-top: 20px;
   flex-wrap: wrap;
@@ -468,7 +468,7 @@ body {
   float: right;
 }
 @media screen and (max-width: 768px) {
-  .profile {
+  .indexprofile {
     display: block;
     margin-top: 20px;
     flex-wrap: wrap;
@@ -477,13 +477,13 @@ body {
     background-color: #ffffff;
   }
 }
-.profile-image {
+.indexprofile-image {
   width: 14vw;
   flex-wrap: wrap;
   margin: 20px auto;
 }
 @media screen and (max-width: 768px) {
-  .profile-image {
+  .indexprofile-image {
     width: 35vw;
     flex-wrap: wrap;
     margin: 20px auto;
@@ -627,7 +627,7 @@ body {
   margin-top: 6vh;
   padding-top: 3vh;
 }
-.category-tag.single-category-tag {
+.single-category-tag {
   background: #c71585;
   margin-left: 2vw;
   padding: 7px 10px;
@@ -637,7 +637,14 @@ body {
   text-align: center;
   text-decoration: none;
 }
+.singleeyecatch {
+  width: 85vw;
+}
 
+.singleimage {
+  width: 85vw;
+  border-radius: 15px;
+}
 .article-title {
   width: 40vw;
   margin: 0 auto;
@@ -664,17 +671,13 @@ body {
   margin-bottom: 5px;
 }
 
-.attachment-post-thumbnail.size-post-thumbnail.wp-post-image{
-  width: 75vw;
-}
-
-.magazine-image {
+.singlemagazine-image {
   width: 45vw;
   border-radius: 10px;
   margin-top: 5vh;
 }
 @media screen and (max-width: 768px) {
-  .magazine-image {
+  .singlemagazine-image {
     width: 85vw;
     border-radius: 10px;
     margin-top: 5vh;
@@ -692,11 +695,18 @@ body {
     margin-top: 5vh;
   }
 }
+
+
 .sampletext {
+  color: #808080;
+  margin-top: 15px;
+}
+.sampletext.p {
   font-size: 11px;
   line-height: 14px;
-  color: #808080;
+  margin-top: 15px;
 }
+
 .dummytext {
   margin: 14px 0;
 }
@@ -733,13 +743,13 @@ body {
   height: 30vh;
   background-color: #c71585;
 }
-.topcopy {
+.categorytopcopy {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Indie Flower", cursive;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   color: white;
 }
@@ -910,8 +920,6 @@ body {
   width: 25vw;
   border-radius: 15px;
   background-color: #ffffff;
-  float: right;
-  margin-left: 70vw;
 }
 @media screen and (max-width: 768px) {
   .category {
@@ -961,10 +969,11 @@ body {
 .cate-link {
   text-decoration: none;
 }
-.allow {
+.categoryallow {
   vertical-align: middle;
   text-align: right;
 }
+
 .footer {
   width: 100vw;
   height: 10vh;

@@ -1,3 +1,18 @@
+    <!DOCTYPE html>
+    <html lang="ja">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>estra,inc.</title>
+      <link rel="stylesheet" href="css\reset.css" />
+      <link rel="stylesheet" href="css\style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Gorditas&family=Indie+Flower&family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
+    </head>
+
     <?php get_header(); ?>
 
     <div class="indexcontent">
@@ -7,7 +22,7 @@
           <p class="topcopy">Commit to the growth<br>for everyone</p>
         </div>
       </div>
-      <div class="article">
+      <div class="indexarticle">
         <div class="newpost">
           <p class="newpost_ttl-small">New Post</p>
           <p class="newpost_ttl">新着記事</p>
@@ -54,18 +69,15 @@
           <?php endif; ?>
 
         </div> <!-- indexflex closetag -->
-
-
       </div> <!-- article 　closetag -->
     </div>
-    
     <div class="indexpromotion">
       <a href="single.html" class="promotion-column">
         <img src="wp-content\themes\20220305omi\img\banner.png" alt="no-img" class="promotion-image">
       </a>
     </div>
-    <div class="profile">
-      <img src="wp-content\themes\20220305omi\img\logo_circle.JPG" alt="no-img" class="profile-image">
+    <div class="indexprofile">
+      <img src="wp-content\themes\20220305omi\img\logo_circle.JPG" alt="no-img" class="indexprofile-image">
       <div class="profile-content">
         <h3 class="profile-ttl">エストラ編集部</h3>
         <p class="profile-txt">プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。</p>
@@ -78,31 +90,31 @@
         </tr>
 
         <tr class="category-list">
-          <td class="language"><a href="category.html" class="cate-link">HTML</a></td>
+          <td class="language"><a href="http://localhost/20220305omi2/category/html" class="cate-link">HTML</a></td>
           <td class="allow">
             <img src="wp-content/themes/20220305omi/img/arrow.svg" alt="no-img" class="allow-image">
           </td>
         </tr>
         <tr class="category-list">
-          <td class="language"><a href="category.html" class="cate-link">CSS</a></td>
+          <td class="language"><a href="http://localhost/20220305omi2/category/css/" class="cate-link">CSS</a></td>
           <td class="allow">
             <img src="wp-content/themes/20220305omi/img/arrow.svg" alt="no-img" class="allow-image">
           </td>
         </tr>
         <tr class="category-list">
-          <td class="language"><a href="category.html" class="cate-link">JavaScript</a></td>
+          <td class="language"><a href="http://localhost/20220305omi2/category/javascript/" class="cate-link">JavaScript</a></td>
           <td class="allow">
             <img src="wp-content/themes/20220305omi/img/arrow.svg" alt="no-img" class="allow-image">
           </td>
         </tr>
         <tr class="category-list">
-          <td class="language"><a href="category.html" class="cate-link">PHP</a></td>
+          <td class="language"><a href="http://localhost/20220305omi2/category/php/" class="cate-link">PHP</a></td>
           <td class="allow">
             <img src="wp-content/themes/20220305omi/img/arrow.svg" alt="no-img" class="allow-image">
           </td>
         </tr>
         <tr class="category-list">
-          <td class="language"><a href="category.html" class="cate-link">MySQL</a></td>
+          <td class="language"><a href="http://localhost/20220305omi2/category/mysql/" class="cate-link">MySQL</a></td>
           <td class="allow">
             <img src="wp-content/themes/20220305omi/img/arrow.svg" alt="no-img" class="allow-image">
           </td>
