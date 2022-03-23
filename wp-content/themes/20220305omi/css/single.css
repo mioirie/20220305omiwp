@@ -303,18 +303,18 @@ body {
 .dummytext {
   margin: 14px 0;
 }
-.sample-header_lg {
+h2 {
   font-size: large;
   font-weight: bold;
   color: #808080;
 }
-.sample-header_md {
+h3 {
   position: relative;
   font-size: medium;
   font-weight: bold;
   color: #808080; 
 }
-.sample-header_sm {
+h4 {
   font-size: small;
   font-weight: bolder;
   color: #808080; 

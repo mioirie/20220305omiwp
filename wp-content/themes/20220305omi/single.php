@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 
+
 <?php if (have_posts()) : the_post(); ?>
-  <div class="content">
+  <div class="singlecontent">
     <div class="singlearticle">
       <div class="single-category">
         <?php if (has_category()) : ?>
