@@ -61,7 +61,7 @@
   </div> <!-- cateflex closetag -->
 </div>
 
-  <aside class="catesidebar">”
+  <aside class="catesidebar">
     <div class="catepromotion">
       <!-- coachtechなら・・ -->
       <a href="single.html" class="promotion-column">
